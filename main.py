@@ -67,6 +67,37 @@ def fragen_netzwerk():
             "a"
         ],
         # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "In welchem Layer des OSI-Modells arbeiten Switche in der Regel?",
+            "Application Layer",
+            "Data Link Layer",
+            "Network Layer",
+            "b"
+        ],
+
+        [
+            "Welcher Befehl muss in der CLI eingegeben werden, um in den global configuration mode zu kommen?",
+            "enable",
+            "interface <...>",
+            "configure terminal",
+            "c"
+        ],
+
+        [
+            "Welche Beschreibung trifft am ehesten auf TCP zu?",
+            "Anwendungsprotokoll zum Versenden vom E-Mails.",
+            "Transportprotokoll mit Verbindungsaufbau fuer zuverlaessige und geordnete Dateiuebertragung.",
+            "Schnelles, verbindungsloses Transportprotokoll ohne Sicherung der Zustellung.",
+            "b"
+        ],
+
+        [
+            "Was ist ein Vorteil von VLSM beim Subnetting?",
+            "Es muss nur eine Subnetzmaske ausgewaehlt werden.",
+            "Alle IP-Adressen werden automatisch zugewiesen.",
+            "IP-Adressen werden effektiv vergeben.",
+            "c"
+        ],
     ]
 
     return fragen
@@ -88,6 +119,27 @@ def fragen_hardware():
             "b"
         ],
         # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Wofür wird eine SSD hauptsächlich verwendet??",
+            "Zum schnellen Speichern und Abrufen von Daten.",
+            "Zum Kühlen des Prozessors.",
+            "Zum Verbinden des Computers mit dem Internet.",
+            "a"
+        ],
+        [
+            "Was ist die Aufgabe eines Prozessors (CPU) in einem Computer?",
+            "Er verarbeitet Befehle und führt Berechnungen aus.",
+            "Er speichert dauerhaft alle Dateien des Computers.",
+            "Er verbessert die Lautstärke der Lautsprecher.",
+            "a"
+        ],
+        [
+            "Wofuer steht DDR4?",
+            "Double Data Rate 4.",
+            "Digital Data Register 4.",
+            "Dynamic Drive RAM 4.",
+            "a"
+        ],
     ]
 
     return fragen
@@ -108,7 +160,27 @@ def fragen_betriebssysteme():
             "Es verhindert grundsaetzlich jede Netzwerkverbindung.",
             "a"
         ],
-        # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Was versteht man unter 'Paging' (Seitenwechsel) im Betriebssystem?",
+            "Eine Methode zur Speicherverwaltung, bei der Hauptspeicher in feste Bloecke aufgeteilt wird.",
+            "Das automatische Sortieren von Dateien auf der Festplatte.",
+            "Ein Protokoll zur schnelleren Ubertragung von Webseiten im Browser.",
+            "a"
+        ],
+        [
+            "Welche Rolle hat der Kernel (Kern) eines Betriebssystems?",
+            "Er stellt die grafische Benutzeroberflache (GUI) bereit.",
+            "Er ist die zentrale Komponente, die den direkten Zugriff auf die Hardware steuert.",
+            "Er dient als Firewall fuer ein- und ausgehenden Datenverkehr.",
+            "b"
+        ],
+        [
+            "Was ist der Hauptunterschied zwischen einem Prozess und einem Thread?",
+            "Ein Prozess hat einen eigenen Speicherbereich, waehrend Threads desselben Prozesses sich den Speicher teilen.",
+            "Ein Thread ist sicherer als ein Prozess und kann nicht abstuerzen.",
+            "Prozesse werden nur auf der CPU ausgefuehrt, Threads auf der Festplatte.",
+            "a"
+        ]
     ]
 
     return fragen
@@ -129,7 +201,27 @@ def fragen_sicherheit():
             "Eine lange Kombination aus verschiedenen Zeichen",
             "c"
         ],
-        # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Was sollte man tun, wenn man eine verdächtige E-Mail mit einem Link erhält?",
+            "Den Link sofort öffnen",
+            "Die E-Mail löschen oder den Absender prüfen",
+            "Das Passwort in der E-Mail eingeben",
+            "b"
+        ],
+        [
+            "Was bedeutet die Abkürzung VPN?",
+            "Virtual Private Network",
+            "Very Personal Number",
+            "Virus Protection Network",
+            "a"
+        ],
+        [
+            "Warum sollte man Software regelmäßig aktualisieren?",
+            "Damit der Computer langsamer wird",
+            "Um Sicherheitslücken zu schließen",
+            "Damit mehr Werbung erscheint",
+            "b"
+        ],
     ]
 
     return fragen
@@ -151,6 +243,27 @@ def fragen_git():
             "a"
         ],
         # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Welcher Befehl laedt ein Repository von einem Remote-Server herunter?",
+            "git push",
+            "git clone",
+            "git commit",
+            "b"
+        ],
+        [
+            "Wofuer wird git push verwendet?",
+            "Um Aenderungen in das lokale Repository zu laden.",
+            "Um ein neues Repository zu erstellen.",
+            "Um lokale Commits auf ein Remote-Repository hochzuladen.",
+            "c"
+        ],
+        [
+            "Was ist ein Repository (Repo)?",
+            "Ein Speicherort fuer Projektdateien und Versionshistorie.",
+            "Ein Texteditor fuer Programmierer.",
+            "Eine Programmiersprache.",
+            "a"
+        ],
     ]
 
     return fragen
