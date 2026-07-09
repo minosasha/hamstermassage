@@ -151,6 +151,27 @@ def fragen_git():
             "a"
         ],
         # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Welcher Befehl laedt ein Repository von einem Remote-Server herunter?",
+            "git push",
+            "git clone",
+            "git commit",
+            "b"
+        ],
+        [
+            "Wofuer wird git push verwendet?",
+            "Um Aenderungen in das lokale Repository zu laden.",
+            "Um ein neues Repository zu erstellen.",
+            "Um lokale Commits auf ein Remote-Repository hochzuladen.",
+            "c"
+        ],
+        [
+            "Was ist ein Repository (Repo)?",
+            "Ein Speicherort fuer Projektdateien und Versionshistorie.",
+            "Ein Texteditor fuer Programmierer.",
+            "Eine Programmiersprache.",
+            "a"
+        ],
     ]
 
     return fragen
