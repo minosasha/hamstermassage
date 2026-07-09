@@ -21,7 +21,7 @@ Jede Person hat auf einem eigenen Branch gearbeitet.
 Ein Branch wurde mit einer älteren Python-Version gepusht, dies konnte beim Review des Pull Requests gelöst werden.
 
 ## Team
-- David
+- David(Cidkid oder Lauren)
 - Jason
 - Marlon
 - Sascha
