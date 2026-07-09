@@ -129,7 +129,27 @@ def fragen_sicherheit():
             "Eine lange Kombination aus verschiedenen Zeichen",
             "c"
         ],
-        # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Was sollte man tun, wenn man eine verdächtige E-Mail mit einem Link erhält?",
+            "Den Link sofort öffnen",
+            "Die E-Mail löschen oder den Absender prüfen",
+            "Das Passwort in der E-Mail eingeben",
+            "b"
+        ],
+        [
+            "Was bedeutet die Abkürzung VPN?",
+            "Virtual Private Network",
+            "Very Personal Number",
+            "Virus Protection Network",
+            "a"
+        ],
+        [
+            "Warum sollte man Software regelmäßig aktualisieren?",
+            "Damit der Computer langsamer wird",
+            "Um Sicherheitslücken zu schließen",
+            "Damit mehr Werbung erscheint",
+            "b"
+        ],
     ]
 
     return fragen
