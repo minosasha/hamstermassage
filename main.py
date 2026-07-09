@@ -108,7 +108,27 @@ def fragen_betriebssysteme():
             "Es verhindert grundsaetzlich jede Netzwerkverbindung.",
             "a"
         ],
-        # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Was versteht man unter 'Paging' (Seitenwechsel) im Betriebssystem?",
+            "Eine Methode zur Speicherverwaltung, bei der Hauptspeicher in feste Bloecke aufgeteilt wird.",
+            "Das automatische Sortieren von Dateien auf der Festplatte.",
+            "Ein Protokoll zur schnelleren Ubertragung von Webseiten im Browser.",
+            "a"
+        ],
+        [
+            "Welche Rolle hat der Kernel (Kern) eines Betriebssystems?",
+            "Er stellt die grafische Benutzeroberflache (GUI) bereit.",
+            "Er ist die zentrale Komponente, die den direkten Zugriff auf die Hardware steuert.",
+            "Er dient als Firewall fuer ein- und ausgehenden Datenverkehr.",
+            "b"
+        ],
+        [
+            "Was ist der Hauptunterschied zwischen einem Prozess und einem Thread?",
+            "Ein Prozess hat einen eigenen Speicherbereich, waehrend Threads desselben Prozesses sich den Speicher teilen.",
+            "Ein Thread ist sicherer als ein Prozess und kann nicht abstuerzen.",
+            "Prozesse werden nur auf der CPU ausgefuehrt, Threads auf der Festplatte.",
+            "a"
+        ]
     ]
 
     return fragen
