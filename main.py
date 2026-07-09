@@ -67,6 +67,37 @@ def fragen_netzwerk():
             "a"
         ],
         # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "In welchem Layer des OSI-Modells arbeiten Switche in der Regel?",
+            "Application Layer",
+            "Data Link Layer",
+            "Network Layer",
+            "b"
+        ],
+
+        [
+            "Welcher Befehl muss in der CLI eingegeben werden, um in den global configuration mode zu kommen?",
+            "enable",
+            "interface <...>",
+            "configure terminal",
+            "c"
+        ],
+
+        [
+            "Welche Beschreibung trifft am ehesten auf TCP zu?",
+            "Anwendungsprotokoll zum Versenden vom E-Mails.",
+            "Transportprotokoll mit Verbindungsaufbau fuer zuverlaessige und geordnete Dateiuebertragung.",
+            "Schnelles, verbindungsloses Transportprotokoll ohne Sicherung der Zustellung.",
+            "b"
+        ],
+
+        [
+            "Was ist ein Vorteil von VLSM beim Subnetting?",
+            "Es muss nur eine Subnetzmaske ausgewaehlt werden.",
+            "Alle IP-Adressen werden automatisch zugewiesen.",
+            "IP-Adressen werden effektiv vergeben.",
+            "c"
+        ],
     ]
 
     return fragen
