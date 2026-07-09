@@ -88,6 +88,27 @@ def fragen_hardware():
             "b"
         ],
         # Fuegen Sie unter dieser Zeile Ihre eigenen Fragen ein.
+        [
+            "Wofür wird eine SSD hauptsächlich verwendet??",
+            "Zum schnellen Speichern und Abrufen von Daten.",
+            "Zum Kühlen des Prozessors.",
+            "Zum Verbinden des Computers mit dem Internet.",
+            "a"
+        ],
+        [
+            "Was ist die Aufgabe eines Prozessors (CPU) in einem Computer?",
+            "Er verarbeitet Befehle und führt Berechnungen aus.",
+            "Er speichert dauerhaft alle Dateien des Computers.",
+            "Er verbessert die Lautstärke der Lautsprecher.",
+            "a"
+        ],
+        [
+            "Wofuer steht DDR4?",
+            "Double Data Rate 4.",
+            "Digital Data Register 4.",
+            "Dynamic Drive RAM 4.",
+            "a"
+        ],
     ]
 
     return fragen
