@@ -24,6 +24,5 @@ Ein Branch wurde mit einer älteren Python-Version gepusht, dies konnte beim Rev
 - David (Cidkid oder Lauren)
 - Jason (JasonBF04)
 - Marlon (marlonschool)
-- Sascha (sascha123456789)
+- Sascha (sascha1234567890)
 - Sasha (minosasha)
-- (Lauren Alison Temfack)
