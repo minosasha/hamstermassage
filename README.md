@@ -26,4 +26,4 @@ Ein Branch wurde mit einer älteren Python-Version gepusht, dies konnte beim Rev
 - Marlon
 - Sascha
 - Sasha
-(- Lauren Alison Temfack)
+- (Lauren Alison Temfack)
